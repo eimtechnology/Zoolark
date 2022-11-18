@@ -1,0 +1,22 @@
+Firmware Version: FW20221108
+Released by: Alex
+
+
+Status code: a
+
+Key updates:
+	1 - Calibrated the oscilloscope reading cause by the internal hardware offset voltage
+	2 - Fixed UART protocal to ensure Zoolark is able to communicate with Zookee software
+	3 - Fixed the Battery percentage issue (now it uses 5 bars)
+	4 - Increased FPS to 30 to enhance the display efficiency (older version was 10fps)
+	5 - Adjusted battery discharge protection voltage
+  
+Known issues:
+	1 - Battery percentage has flickering at the edge when power level is right in the two bar  
+	2 - No other issues have been reported at this moment
+
+
+Status code: 
+a - ready to upgrade
+b - alpha version, upgrade with caution
+c - test version, upgrade not recommended
